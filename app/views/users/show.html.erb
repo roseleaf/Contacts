@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<% if is_me? @user.id %>
+  <h1>THIS IS ME</h1>
+<% end %>
+
 <p>
   <b>Username:</b>
   <%= @user.username %>
@@ -10,21 +14,9 @@
   <%= @user.email %>
 </p>
 
-<p>
-  <b>Crypted password:</b>
-  <%= @user.crypted_password %>
-</p>
 
-<p>
-  <b>Password salt:</b>
-  <%= @user.password_salt %>
-</p>
-
-<p>
-  <b>Persistence token:</b>
-  <%= @user.persistence_token %>
-</p>
-
-
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<% if is_me? @user.id %>
+<%= link_to 'Edit', edit_user_path(@user) %> 
+<% else %>
+    <% link_to 'Talk to this person' conversation_path(@user.id)
+<% end %>

@@ -1,7 +1,8 @@
 Contacts::Application.routes.draw do
-  resources :users, :user_sessions
+  resources :users, :user_sessions, :conversation
   match 'login' => 'user_sessions#new', :as => :login
   match 'logout' => 'user_sessions#destroy', :as => :logout
+  # match 'conversation/:receiver_id' => 'conversation#show'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
