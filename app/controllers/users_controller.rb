@@ -1,6 +1,11 @@
 class UsersController < ApplicationController
   # GET /users
   # GET /users.json
+  def message
+    message.where("(senderid = ? AND recieverid = ?) 
+    OR (senderid = ? AND recieverid = ?)", senderid, recieverid, recieverid, senderid)
+  end
+
   def index
     if is_admin?
       @users = User.all
