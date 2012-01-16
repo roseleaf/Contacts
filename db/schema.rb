@@ -13,18 +13,18 @@
 ActiveRecord::Schema.define(:version => 20120116040650) do
 
   create_table "conversations", :force => true do |t|
-    t.integer  "sender_id"
-    t.integer  "reciever_id"
+    t.integer  "sender"
+    t.integer  "reciever"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "messages", :force => true do |t|
+    t.integer  "sender_id"
+    t.integer  "receiver_id"
     t.text     "text"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "sender_id"
-    t.integer  "receiver_id"
   end
 
   create_table "users", :force => true do |t|
