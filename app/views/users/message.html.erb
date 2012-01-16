@@ -9,12 +9,6 @@
 
 <br/><br/>
 
-<% @messages.each do |message| %>
-   <b><%= message.sender.username %>:</b> <%= message.text %>
-   <br/>
-<% end %>
-<br/><br/>
-
 <%= form_for(@message) do |f| %>
   <% if @user.errors.any? %>
     <div id="error_explanation">
