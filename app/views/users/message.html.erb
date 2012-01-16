@@ -1,23 +1,14 @@
-<<<<<<< HEAD
-messages should be shown here
-<br/>
+
+<p id="notice"><%= notice %></p>
+<br/><br/>
 
 <% @messages.each do |message| %>
   <b><%= message.sender.username %>:</b> <%= message.text %>
   <br/>
 <% end %>
 
-<%= form_for(@message) do |f| %>
-
-  <div class="field">
-    <%= f.label :text %><br />
-    <%= f.text_field :text %>
-  </div>
-  <div class="actions">
-    <%= f.new %>
-  </div>
-=======
 <br/><br/>
+
 <% @messages.each do |message| %>
    <b><%= message.sender.username %>:</b> <%= message.text %>
    <br/>
@@ -42,11 +33,10 @@ messages should be shown here
     <%= f.text_area :text %>
   </div>
 
-  <%= f.hidden_field :sender, :value => current_user.id %>
-  <%= f.hidden_field :reciever, :value => @user.id %>
+  <%= f.hidden_field :sender_id, :value => current_user.id %>
+  <%= f.hidden_field :receiver_id, :value => @user.id %>
 
   <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
->>>>>>> d969ea643e88e216e724eda1640fdce74d949c62
