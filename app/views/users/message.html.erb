@@ -1,1 +1,6 @@
-Messages should be show here
+messages should be shown here
+
+<% @messages.each do |message| %>
+   <%= message.text %>
+   <br/>
+<% end %>
