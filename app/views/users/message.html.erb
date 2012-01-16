@@ -1,6 +1,17 @@
 messages should be shown here
+<br/>
 
 <% @messages.each do |message| %>
-   <%= message.text %>
-   <br/>
+  <b><%= message.sender.username %>:</b> <%= message.text %>
+  <br/>
 <% end %>
+
+<%= form_for(@message) do |f| %>
+
+  <div class="field">
+    <%= f.label :text %><br />
+    <%= f.text_field :text %>
+  </div>
+  <div class="actions">
+    <%= f.new %>
+  </div>
