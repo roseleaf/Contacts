@@ -7,6 +7,7 @@ class UsersController < ApplicationController
     # Then we write this query to get all the messages sent between user A and B, 
     # or B and A depending on who sent the message
     @messages = Message.where("(sender_id = ? AND receiver_id = ?) OR (sender_id = ? AND receiver_id = ?)", current_user.id, @user.id, current_user.id, @user.id)
+    @message = Message.new
   end
   
   # GET /users
