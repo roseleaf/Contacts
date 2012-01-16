@@ -7960,3 +7960,1792 @@ Started GET "/login" for 127.0.0.1 at Sun Jan 15 19:13:51 -0500 2012
 Rendered user_sessions/_form.html.erb (4.3ms)
 Rendered user_sessions/new.html.erb within layouts/application (7.7ms)
 Completed 200 OK in 78ms (Views: 63.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 15 21:25:48 -0500 2012
+  Processing by PublicController#index as HTML
+Rendered public/index.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 191ms (Views: 184.1ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:49 -0500 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:49 -0500 2012
+Served asset /users.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:49 -0500 2012
+Served asset /conversations.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:49 -0500 2012
+Served asset /public.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:49 -0500 2012
+Served asset /conversations.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:49 -0500 2012
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:49 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:49 -0500 2012
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:49 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:49 -0500 2012
+Served asset /public.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:49 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 15 21:25:51 -0500 2012
+  Processing by PublicController#index as HTML
+Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 89ms (Views: 84.9ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:51 -0500 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:51 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:51 -0500 2012
+Served asset /public.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:51 -0500 2012
+Served asset /conversations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:51 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:51 -0500 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:51 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:51 -0500 2012
+Served asset /conversations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:51 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:51 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:52 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/login" for 127.0.0.1 at Sun Jan 15 21:25:53 -0500 2012
+  Processing by UserSessionsController#new as HTML
+Rendered user_sessions/_form.html.erb (46.9ms)
+Rendered user_sessions/new.html.erb within layouts/application (61.1ms)
+Completed 200 OK in 91ms (Views: 76.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:53 -0500 2012
+Served asset /public.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:54 -0500 2012
+Served asset /conversations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:54 -0500 2012
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:54 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:54 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:25:54 -0500 2012
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:54 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:54 -0500 2012
+Served asset /conversations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:54 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:54 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:25:54 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/user/1/message" for 127.0.0.1 at Sun Jan 15 21:26:03 -0500 2012
+
+ActionController::RoutingError (uninitialized constant UserController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at Sun Jan 15 21:26:53 -0500 2012
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (10.2ms)
+Rendered users/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 79ms (Views: 75.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:26:54 -0500 2012
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:26:54 -0500 2012
+Served asset /conversations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:26:54 -0500 2012
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:26:54 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:26:54 -0500 2012
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:26:54 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:26:54 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:26:54 -0500 2012
+Served asset /conversations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:26:54 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:26:54 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:26:54 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at Sun Jan 15 21:27:01 -0500 2012
+  Processing by UsersController#create as HTML
+  Parameters: {"commit"=>"Create User", "authenticity_token"=>"oBBoWvOerJFbLPdc92sGZg+N0EZkAcPt5DeYUpRrA14=", "utf8"=>"\342\234\223", "user"=>{"password_confirmation"=>"[FILTERED]", "username"=>"breefield", "password"=>"[FILTERED]", "email"=>"dustin.hoffman@breefield.com"}}
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35m (6.0ms)[0m  SELECT 1 FROM `users` WHERE LOWER(`users`.`email`) = LOWER('dustin.hoffman@breefield.com') LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT 1 FROM `users` WHERE LOWER(`users`.`username`) = LOWER('breefield') LIMIT 1[0m
+  [1m[35m (2.1ms)[0m  SELECT 1 FROM `users` WHERE `users`.`persistence_token` = BINARY '5530c6593811c8406c91e17d689bf42202fa8b8934c99648adb0bc6a5023382c3fd7d2e7b7e99afdeb2752bb54d601d382a81ae6c73e4909d8e77d1a788ad2d2' LIMIT 1
+  [1m[36mSQL (2.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `crypted_password`, `email`, `password_salt`, `persistence_token`, `updated_at`, `username`) VALUES ('2012-01-16 02:27:01', '6bf9e8bedd7f391ca9d590efbd2de64b3518a8b4d666873a1c54d114925255fb82f39283c318a642afbbb9b5baa5b96181f399e01021abb0ebe040b934543357', 'dustin.hoffman@breefield.com', '8meq959HbpypEZykLXi4', '5530c6593811c8406c91e17d689bf42202fa8b8934c99648adb0bc6a5023382c3fd7d2e7b7e99afdeb2752bb54d601d382a81ae6c73e4909d8e77d1a788ad2d2', '2012-01-16 02:27:01', 'breefield')[0m
+  [1m[35m (1.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 99ms
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 15 21:27:01 -0500 2012
+  Processing by PublicController#index as HTML
+Rendered public/index.html.haml within layouts/application (0.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`persistence_token` = '5530c6593811c8406c91e17d689bf42202fa8b8934c99648adb0bc6a5023382c3fd7d2e7b7e99afdeb2752bb54d601d382a81ae6c73e4909d8e77d1a788ad2d2' LIMIT 1[0m
+Completed 200 OK in 92ms (Views: 88.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:02 -0500 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:02 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:02 -0500 2012
+Served asset /conversations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:02 -0500 2012
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:02 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:02 -0500 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:02 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:02 -0500 2012
+Served asset /conversations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:02 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:02 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:02 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/logout" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+  Processing by UserSessionsController#destroy as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`persistence_token` = '5530c6593811c8406c91e17d689bf42202fa8b8934c99648adb0bc6a5023382c3fd7d2e7b7e99afdeb2752bb54d601d382a81ae6c73e4909d8e77d1a788ad2d2' LIMIT 1
+Redirected to http://localhost:3000/users
+Completed 302 Found in 23ms
+
+
+Started GET "/users" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+  Processing by UsersController#index as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+  Processing by PublicController#index as HTML
+Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 80.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+Served asset /public.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+Served asset /conversations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+Served asset /conversations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:06 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/login" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+  Processing by UserSessionsController#new as HTML
+Rendered user_sessions/_form.html.erb (3.9ms)
+Rendered user_sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 39ms (Views: 21.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+Served asset /conversations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+Served asset /public.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+Served asset /conversations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:07 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (8.5ms)
+Rendered users/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 28ms (Views: 23.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+Served asset /conversations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+Served asset /conversations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:09 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+  Processing by UsersController#create as HTML
+  Parameters: {"commit"=>"Create User", "authenticity_token"=>"oBBoWvOerJFbLPdc92sGZg+N0EZkAcPt5DeYUpRrA14=", "utf8"=>"\342\234\223", "user"=>{"password_confirmation"=>"[FILTERED]", "username"=>"rose", "password"=>"[FILTERED]", "email"=>"rose@wow.com"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT 1 FROM `users` WHERE LOWER(`users`.`email`) = LOWER('rose@wow.com') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM `users` WHERE LOWER(`users`.`username`) = LOWER('rose') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM `users` WHERE `users`.`persistence_token` = BINARY 'c8f8ddbd3772799d533d4e13aa6447c85cdbafcb090b4e3be1af32cf877ffe2aba5890df5aea84eedb9b1ac944bd7ee0e39579529a6ac4ceb1efe5652ea69502' LIMIT 1
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO `users` (`created_at`, `crypted_password`, `email`, `password_salt`, `persistence_token`, `updated_at`, `username`) VALUES ('2012-01-16 02:27:18', 'f081b60e2409d51fbcb8b318e0a6bea98a2371ee28302fab10cef28a5976ae8ea789db0db58c058097f95656461417389705c22210a60012d715121e06ad8ee4', 'rose@wow.com', 'SqKpXTs9tjebrQOSna', 'c8f8ddbd3772799d533d4e13aa6447c85cdbafcb090b4e3be1af32cf877ffe2aba5890df5aea84eedb9b1ac944bd7ee0e39579529a6ac4ceb1efe5652ea69502', '2012-01-16 02:27:18', 'rose')[0m
+  [1m[35m (0.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 20ms
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+  Processing by PublicController#index as HTML
+Rendered public/index.html.haml within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`persistence_token` = 'c8f8ddbd3772799d533d4e13aa6447c85cdbafcb090b4e3be1af32cf877ffe2aba5890df5aea84eedb9b1ac944bd7ee0e39579529a6ac4ceb1efe5652ea69502' LIMIT 1[0m
+Completed 200 OK in 94ms (Views: 90.3ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+Served asset /conversations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+Served asset /public.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+Served asset /conversations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:18 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/logout" for 127.0.0.1 at Sun Jan 15 21:27:20 -0500 2012
+  Processing by UserSessionsController#destroy as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`persistence_token` = 'c8f8ddbd3772799d533d4e13aa6447c85cdbafcb090b4e3be1af32cf877ffe2aba5890df5aea84eedb9b1ac944bd7ee0e39579529a6ac4ceb1efe5652ea69502' LIMIT 1
+Redirected to http://localhost:3000/users
+Completed 302 Found in 27ms
+
+
+Started GET "/users" for 127.0.0.1 at Sun Jan 15 21:27:20 -0500 2012
+  Processing by UsersController#index as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 15 21:27:20 -0500 2012
+  Processing by PublicController#index as HTML
+Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 88ms (Views: 84.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:20 -0500 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:20 -0500 2012
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:20 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:20 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:20 -0500 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:20 -0500 2012
+Served asset /conversations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:21 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:21 -0500 2012
+Served asset /conversations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:21 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:21 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:21 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/login" for 127.0.0.1 at Sun Jan 15 21:27:21 -0500 2012
+  Processing by UserSessionsController#new as HTML
+Rendered user_sessions/_form.html.erb (4.2ms)
+Rendered user_sessions/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 37ms (Views: 20.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:22 -0500 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:22 -0500 2012
+Served asset /conversations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:22 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:22 -0500 2012
+Served asset /public.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:22 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:27:22 -0500 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:22 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:22 -0500 2012
+Served asset /conversations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:22 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:22 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:27:22 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at Sun Jan 15 21:27:26 -0500 2012
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"commit"=>"Create User session", "user_session"=>{"username"=>"breefield", "password"=>"[FILTERED]"}, "authenticity_token"=>"oBBoWvOerJFbLPdc92sGZg+N0EZkAcPt5DeYUpRrA14=", "utf8"=>"\342\234\223"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (`users`.username LIKE 'breefield') LIMIT 1[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 27ms
+
+
+Started GET "/users" for 127.0.0.1 at Sun Jan 15 21:27:26 -0500 2012
+  Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` [0m
+  [1m[35mConversation Load (0.3ms)[0m  SELECT `conversations`.* FROM `conversations` WHERE `conversations`.`id` = 1 LIMIT 1
+Completed 404 Not Found in 21ms
+
+ActiveRecord::RecordNotFound (Couldn't find Conversation with id=1):
+  app/controllers/users_controller.rb:14:in `index'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at Sun Jan 15 21:27:29 -0500 2012
+  Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` 
+  [1m[36mConversation Load (0.2ms)[0m  [1mSELECT `conversations`.* FROM `conversations` WHERE `conversations`.`id` = 1 LIMIT 1[0m
+Completed 404 Not Found in 18ms
+
+ActiveRecord::RecordNotFound (Couldn't find Conversation with id=1):
+  app/controllers/users_controller.rb:14:in `index'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at Sun Jan 15 21:28:00 -0500 2012
+  Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` [0m
+Rendered users/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 90ms (Views: 22.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:28:01 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:28:01 -0500 2012
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:28:01 -0500 2012
+Served asset /conversations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:28:01 -0500 2012
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:28:01 -0500 2012
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:01 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:01 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:01 -0500 2012
+Served asset /conversations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:01 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:01 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:01 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+  Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` [0m
+Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 77ms (Views: 66.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+Served asset /public.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+Served asset /conversations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+Served asset /conversations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:28:02 -0500 2012
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at Sun Jan 15 21:28:03 -0500 2012
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+ERROR: compiling _app_views_users_show_html_erb__9296903_2251300460 RAISED compile error
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting kEND
+     link_to 'Talk to this person' conversation_path(@user.id)
+                                                    ^
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:22: syntax error, unexpected '<', expecting kEND
+<% end 
+ ^
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:24: syntax error, unexpected kENSURE, expecting kEND
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:26: syntax error, unexpected $end, expecting kEND
+Function body:           def _app_views_users_show_html_erb__9296903_2251300460(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "users/show";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<p id="notice">');@output_buffer.append= ( notice );@output_buffer.safe_concat('</p>
+
+'); if is_me? @user.id 
+@output_buffer.safe_concat('  <h1>THIS IS ME</h1>
+'); end 
+@output_buffer.safe_concat('
+<p>
+  <b>Username:</b>
+  ');@output_buffer.append= ( @user.username );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</p>
+
+<p>
+  <b>Email:</b>
+  ');@output_buffer.append= ( @user.email );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</p>
+
+
+'); if is_me? @user.id 
+@output_buffer.append= ( link_to 'Edit', edit_user_path(@user) );@output_buffer.safe_concat(' 
+'); else 
+     link_to 'Talk to this person' conversation_path(@user.id)
+<% end 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/dustin/www/Contacts/app/views/users/show.html.erb:26:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:217:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:170:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:169:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/mime_responds.rb:268:in `retrieve_response_from_mimes'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/Users/dustin/www/Contacts/app/controllers/users_controller.rb:28:in `show'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:425:in `_run__434435962__process_action__453433196__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/flash.rb:247:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/query_cache.rb:64:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/engine.rb:456:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/content_length.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/handler/webrick.rb:59:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/server.rb:265:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands/server.rb:70:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:54
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:49:in `tap'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (compile error
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting kEND
+     link_to 'Talk to this person' conversation_path(@user.id)
+                                                    ^
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:22: syntax error, unexpected '<', expecting kEND
+<% end 
+ ^
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:24: syntax error, unexpected kENSURE, expecting kEND
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:26: syntax error, unexpected $end, expecting kEND):
+    18: <% if is_me? @user.id %>
+    19: <%= link_to 'Edit', edit_user_path(@user) %> 
+    20: <% else %>
+    21:     <% link_to 'Talk to this person' conversation_path(@user.id)
+    22: <% end %>
+  app/views/users/show.html.erb:26:in `compile'
+  app/controllers/users_controller.rb:28:in `show'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at Sun Jan 15 21:28:42 -0500 2012
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+ERROR: compiling _app_views_users_show_html_erb__9296903_2251300460 RAISED compile error
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting kEND
+     link_to 'Talk to this person' conversation_path(@user.id)
+                                                    ^
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:22: syntax error, unexpected '<', expecting kEND
+<% end 
+ ^
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:24: syntax error, unexpected kENSURE, expecting kEND
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:26: syntax error, unexpected $end, expecting kEND
+Function body:           def _app_views_users_show_html_erb__9296903_2251300460(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "users/show";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<p id="notice">');@output_buffer.append= ( notice );@output_buffer.safe_concat('</p>
+
+'); if is_me? @user.id 
+@output_buffer.safe_concat('  <h1>THIS IS ME</h1>
+'); end 
+@output_buffer.safe_concat('
+<p>
+  <b>Username:</b>
+  ');@output_buffer.append= ( @user.username );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</p>
+
+<p>
+  <b>Email:</b>
+  ');@output_buffer.append= ( @user.email );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</p>
+
+
+'); if is_me? @user.id 
+@output_buffer.append= ( link_to 'Edit', edit_user_path(@user) );@output_buffer.safe_concat(' 
+'); else 
+     link_to 'Talk to this person' conversation_path(@user.id)
+<% end 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/dustin/www/Contacts/app/views/users/show.html.erb:26:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:217:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:170:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:169:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/mime_responds.rb:268:in `retrieve_response_from_mimes'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/Users/dustin/www/Contacts/app/controllers/users_controller.rb:28:in `show'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:425:in `_run__434435962__process_action__453433196__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/flash.rb:247:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/query_cache.rb:64:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/engine.rb:456:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/content_length.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/handler/webrick.rb:59:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/server.rb:265:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands/server.rb:70:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:54
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:49:in `tap'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered users/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (compile error
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting kEND
+     link_to 'Talk to this person' conversation_path(@user.id)
+                                                    ^
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:22: syntax error, unexpected '<', expecting kEND
+<% end 
+ ^
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:24: syntax error, unexpected kENSURE, expecting kEND
+/Users/dustin/www/Contacts/app/views/users/show.html.erb:26: syntax error, unexpected $end, expecting kEND):
+    18: <% if is_me? @user.id %>
+    19: <%= link_to 'Edit', edit_user_path(@user) %> 
+    20: <% else %>
+    21:     <% link_to 'Talk to this person' conversation_path(@user.id)
+    22: <% end %>
+  app/views/users/show.html.erb:26:in `compile'
+  app/controllers/users_controller.rb:28:in `show'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.7ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at Sun Jan 15 21:29:01 -0500 2012
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Rendered users/show.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 75ms (Views: 71.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:02 -0500 2012
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:02 -0500 2012
+Served asset /public.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:02 -0500 2012
+Served asset /conversations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:02 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:02 -0500 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:02 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:02 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:02 -0500 2012
+Served asset /conversations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:02 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:02 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:02 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:29:08 -0500 2012
+
+ActionController::RoutingError (No route matches [GET] "/users/2/message"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:29:21 -0500 2012
+
+ActionController::RoutingError (uninitialized constant UserController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:29:27 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 4ms
+
+SystemStackError (stack level too deep):
+  app/controllers/users_controller.rb:4:in `message'
+  app/controllers/users_controller.rb:4:in `message'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:29:38 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 82ms
+
+NameError (undefined local variable or method `senderid' for #<UsersController:0x10c4aa738>):
+  app/controllers/users_controller.rb:5:in `message'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:29:49 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 78ms
+
+NameError (undefined local variable or method `senderid' for #<UsersController:0x10cabc478>):
+  app/controllers/users_controller.rb:5:in `message'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+Rendered users/message.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Completed 200 OK in 26ms (Views: 22.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+Served asset /conversations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+Served asset /conversations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:54 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+Rendered users/message.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+Served asset /conversations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (50ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+Served asset /conversations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:29:55 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:32:20 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Rendered users/message.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 14.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /conversations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /conversations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /application.js - 304 Not Modified (53ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Rendered users/message.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 13.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /public.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /conversations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /conversations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:21 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Rendered users/message.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 15.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+Served asset /conversations.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+Served asset /conversations.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:29 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Rendered users/message.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 14.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+Served asset /users.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+Served asset /jquery.js - 200 OK (10ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+Served asset /public.css - 200 OK (1ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+Served asset /conversations.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+Served asset /conversations.js - 200 OK (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+Served asset /public.js - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:32:35 -0500 2012
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Rendered users/message.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 33ms (Views: 16.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+Served asset /public.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+Served asset /conversations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+Served asset /conversations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:34:34 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Rendered users/message.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 13.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+Served asset /conversations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+Served asset /public.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+Served asset /conversations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:36:19 -0500 2012
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Rendered users/message.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 77ms (Views: 14.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+Served asset /public.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+Served asset /conversations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+Served asset /conversations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:39:47 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateBooksTable (20120113202937)
+Migrating to CreateUsers (20120113205925)
+Migrating to StartOver (20120114004907)
+Migrating to CreateConversationTable (20120114011206)
+Migrating to CreateMessages (20120115221123)
+Migrating to ChangeMessages (20120116024218)
+  [1m[35m (17.4ms)[0m  ALTER TABLE `messages` DROP `sender`
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE `messages` DROP `reciever`[0m
+Mysql2::Error: Can't DROP 'reciever'; check that column/key exists: ALTER TABLE `messages` DROP `reciever`
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateBooksTable (20120113202937)
+Migrating to CreateUsers (20120113205925)
+Migrating to StartOver (20120114004907)
+Migrating to CreateConversationTable (20120114011206)
+Migrating to CreateMessages (20120115221123)
+Migrating to ChangeMessages (20120116024218)
+  [1m[35m (9.4ms)[0m  ALTER TABLE `messages` DROP `sender`
+  [1m[36m (11.7ms)[0m  [1mALTER TABLE `messages` DROP `receiver`[0m
+  [1m[35m (9.9ms)[0m  ALTER TABLE `messages` ADD `sender_id` int(11)
+  [1m[36m (11.2ms)[0m  [1mALTER TABLE `messages` ADD `receiver_id` int(11)[0m
+  [1m[35m (0.9ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120116024218')
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+
+
+Started GET "/users/2/message" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+  Processing by UsersController#message as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Rendered users/message.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 75ms (Views: 62.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/conversations.css?body=1" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+Served asset /conversations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+Served asset /public.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/conversations.js?body=1" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+Served asset /conversations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 15 21:46:58 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)

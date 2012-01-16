@@ -17,6 +17,4 @@
 
 <% if is_me? @user.id %>
 <%= link_to 'Edit', edit_user_path(@user) %> 
-<% else %>
-    <% link_to 'Talk to this person' conversation_path(@user.id)
 <% end %>

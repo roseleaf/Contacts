@@ -3,7 +3,7 @@ Contacts::Application.routes.draw do
   resources :users, :user_sessions, :conversation, :message
   match 'login' => 'user_sessions#new', :as => :login
   match 'logout' => 'user_sessions#destroy', :as => :logout
-  match 'user/:id/message/' => 'user#message'
+  match 'users/:id/message/' => 'users#message'
 
   # match 'conversation/:receiver_id' => 'conversation#show'
 

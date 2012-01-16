@@ -1,8 +1,12 @@
 class UsersController < ApplicationController
 
   def message
-    message.where("(senderid = ? AND recieverid = ?) 
-    OR (senderid = ? AND recieverid = ?)", senderid, recieverid, recieverid, senderid)
+    # we save the user in this variable (we get the user ID from the URL (the route))
+    @user = User.find(params[:id])
+
+    # Then we write this query to get all the messages sent between user A and B, 
+    # or B and A depending on who sent the message
+    @messages = Message.where("(sender_id = ? AND receiver_id = ?) OR (sender_id = ? AND receiver_id = ?)", current_user.id, @user.id, current_user.id, @user.id)
   end
   
   # GET /users
@@ -10,9 +14,6 @@ class UsersController < ApplicationController
   def index
     if is_admin?
       @users = User.all
-
-      @conversation = Conversation.find(1)
-      @sender = @conversation.sender
 
       respond_to do |format|
         format.html # index.html.erb
