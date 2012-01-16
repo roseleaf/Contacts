@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 messages should be shown here
 <br/>
 
@@ -15,3 +16,37 @@ messages should be shown here
   <div class="actions">
     <%= f.new %>
   </div>
+=======
+<br/><br/>
+<% @messages.each do |message| %>
+   <b><%= message.sender.username %>:</b> <%= message.text %>
+   <br/>
+<% end %>
+<br/><br/>
+
+<%= form_for(@message) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% @message.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :text, :message %><br />
+    <%= f.text_area :text %>
+  </div>
+
+  <%= f.hidden_field :sender, :value => current_user.id %>
+  <%= f.hidden_field :reciever, :value => @user.id %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+>>>>>>> d969ea643e88e216e724eda1640fdce74d949c62
