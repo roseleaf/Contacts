@@ -10,18 +10,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(:version => 20120114011206) do
-
-  create_table "conversations", :force => true do |t|
-    t.integer  "user_a"
-    t.integer  "user_b"
-=======
 ActiveRecord::Schema.define(:version => 20120115221123) do
 
   create_table "conversations", :force => true do |t|
-    t.integer  "sender_id"
-    t.integer  "reciever_id"
+    t.integer  "sender"
+    t.integer  "reciever"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -30,7 +23,6 @@ ActiveRecord::Schema.define(:version => 20120115221123) do
     t.integer  "sender"
     t.integer  "receiver"
     t.text     "message"
->>>>>>> f1636a5dcbd5fa79eb08b7c50e67b8c503ef4499
     t.datetime "created_at"
     t.datetime "updated_at"
   end
