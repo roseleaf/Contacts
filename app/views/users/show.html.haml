@@ -9,3 +9,8 @@
   = @user.email
 - if is_me? @user.id
   = link_to 'Edit', edit_user_path(@user)
+%p
+
+%span#messagebox
+=link_to 'index', message_user_path
+  

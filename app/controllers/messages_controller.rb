@@ -10,4 +10,8 @@ class MessagesController < ApplicationController
       render :template => 'users/message' #, message_user_path(@message.receiver_id)
     end
   end
+  def index
+    @messages = Message.where("(sender_id = ? AND receiver_id = ?) OR (sender_id = ? AND receiver_id = ?)", current_user.id, @user.id, @user.id, current_user.id)
+    render :template => 'users/message' #, message_user_path(@message.receiver_id)
+  end
 end
