@@ -1,0 +1,11 @@
+%p#notice= notice
+- if is_me? @user.id
+  %h1 THIS IS ME
+%p
+  %p Username:
+  %h1= @user.username
+%p
+  %b Email:
+  = @user.email
+- if is_me? @user.id
+  = link_to 'Edit', edit_user_path(@user)

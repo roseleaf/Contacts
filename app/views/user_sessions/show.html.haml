@@ -1,0 +1,7 @@
+%p#notice= notice
+%p
+  %b Username:
+  = @user_session.username
+= link_to 'Edit', edit_user_session_path(@user_session)
+|
+#{link_to 'Back', user_sessions_path}

@@ -13,16 +13,16 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    if is_admin?
+    #if is_admin?
       @users = User.all
 
       respond_to do |format|
         format.html # index.html.erb
         #format.json { render :json => @users }
       end
-    else 
-      redirect_to :root
-    end
+    # else 
+    #   redirect_to :root
+    # end
   end
 
   # GET /users/1
