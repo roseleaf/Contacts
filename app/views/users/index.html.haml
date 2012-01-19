@@ -1,4 +1,4 @@
-%h1 Listing users
+%h1 Your Mates
 %p#notice= notice
 %table
   %tr
@@ -18,3 +18,5 @@
 %br/
 - if is_admin?
   = link_to 'New User', new_user_path
+
+.link=link_to 'Home', :root

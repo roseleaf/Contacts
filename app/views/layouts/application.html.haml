@@ -8,17 +8,17 @@
         = csrf_meta_tags
 
     %body
-        - if current_user
-            = current_user.id
         .nav
             - if current_user
-                = link_to "Edit Profile", edit_user_path(current_user.id)
-                |
-                = link_to "Logout", :logout
+                %a.edit= link_to "Edit Profile", edit_user_path(current_user.id)
+                %a.logout= link_to "Logout", :logout
             -else
-                = link_to "Register", new_user_path
-                |
-                = link_to "Login", :login
-            
+                %a.register= link_to "Register", new_user_path
+                %a.login= link_to "Login", :login
+        .greet
+            -if current_user
+                Welcome,
+                =current_user.username.capitalize
         = yield
+
 

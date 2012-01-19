@@ -2,8 +2,7 @@
 - if is_me? @user.id
   %h1 THIS IS ME
 %p
-  %p Username:
-  %h1= @user.username
+  %h1= @user.username.capitalize
 %p
   %b Email:
   = @user.email
@@ -12,5 +11,8 @@
 %p
 
 %span#messagebox
-=link_to 'index', message_user_path
+.link=link_to 'See Conversation', :message_user
+%br
+.link=link_to 'Home', :root
+.link=link_to 'Back to Mates', :users
   

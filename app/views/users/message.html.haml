@@ -1,12 +1,13 @@
-%h1 Conversation
+%h1 Conversation with #{@user.username.capitalize}
 %p#notice= notice
 %br/
 - @messages.each do |message|
   %b
-    = message.sender.username
-    \:
-  = message.text
-  %br/
+    %div.blip
+      = message.sender.username
+      \:
+      = message.text
+      %br/
 %br/
 %br/
 = form_for(@message) do |f|
@@ -19,10 +20,14 @@
         - @message.errors.full_messages.each do |msg|
           %li= msg
   .field
-    = f.label :text, :message
+    = f.label :text, "Write your message"
     %br/
     = f.text_area :text
   = f.hidden_field :sender_id, :value => current_user.id
   = f.hidden_field :receiver_id, :value => @user.id
   .actions
-    = f.submit
+    = f.submit "Cast it"
+
+%br
+.link=link_to 'Home', :root
+.limk=link_to 'Back to Mates', :users
