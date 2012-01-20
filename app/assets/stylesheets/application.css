@@ -5,3 +5,96 @@
  *= require_self
  *= require_tree . 
 */
+html, body {    
+   height: 100%; 
+}
+
+#container {
+  height: auto;
+  overflow: auto;
+}
+
+h1 { 
+font-family: Verdana, sans-serif; 
+font: normal;
+}
+
+#header{
+       position: absolute;
+       top: 0;
+       left: 0;
+       height: 160px;
+       background: #000033;
+       border-bottom: 10px solid #80809a;
+       width: 100%;
+       padding-bottom: -20px;
+     }
+
+.logo {
+  height: 110px;
+  width: 300px;
+  display: block;
+  position: absolute;
+  float: right;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.nav{
+  display: block;
+  position: relative;
+  margin-right: auto;
+  width: 25%;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+a.linky{
+  height: 78px;
+  width: 222px;
+  background: #000000;
+  margin-left: 20px;
+}
+
+.greet{
+  font-family: Verdana, sans-serif;
+  font: normal small-caps bold 2.5em Arial, sans-serif;
+  color: #eeeef2;
+  margin-left: 20px;
+}
+
+.tagline{
+  font: normal 45px Verdana, sans-serif;
+  margin-left: 20px;
+  color: #c0c0cd;
+  margin-top: 10px;
+}
+
+.content{
+  overflow: auto;
+  padding-bottom: 230px;
+  margin-top: 165px;
+  margin-left: 20px;
+  position: relative;
+}
+/*.clearfooter {
+  height: 300px;
+  clear: both;
+}*/
+
+.footer {
+   height: 230px;
+   position: relative;
+   margin-top: -130;
+   clear: both;
+   margin-left:-10px;
+   margin-right:-10px;
+   width: relative;
+   background: #80809a;
+   border-top: 20px solid #bfbfcc;
+}
+
+.mates{
+  margin-top: 20px;
+}
+

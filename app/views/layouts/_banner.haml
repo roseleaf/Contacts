@@ -1,0 +1,15 @@
+#container 
+    #header
+        .nav
+        - if current_user
+            %a.linky= link_to "Edit Profile", edit_user_path(current_user.id)
+            %a.linky= link_to "Logout", :logout
+        -else
+            %a.linky= link_to "Register", new_user_path
+            %a.linky= link_to "Login", :login
+        .greet
+            -if current_user
+                Welcome,
+                =current_user.username.capitalize
+    .logo= image_tag("messagetitle.png")
+   
